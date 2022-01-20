@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#map-container {
+    text-align: center;
+    background-color: purple;
+}
+
+.tiles {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tile-wall {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.character-start {
+    background-color: blue;
+}
+
+.tile-block {
+    background-color: brown;
+}
+
+.tile-goal {
+    background-color: red;
+}
+
+.tile-space {
+    background-color: green;
+}
+
+#entity-player {
+    border: 2px solid black;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.entity-block {
+    border: 2px solid black;
+    background-color: gold;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: relative;
+}
